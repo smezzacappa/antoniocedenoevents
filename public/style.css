@@ -190,10 +190,10 @@ footer {
     margin: auto;
 }
 #eventInfo{
-    
+    opacity: 1;
 }
 #ticketCard{
-    
+    opacity: 1;
     background-color: lightcoral;
 }
   }
