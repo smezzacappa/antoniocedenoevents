@@ -21,7 +21,7 @@ body {
     padding-right: 60px; */
 }
 
-#mainTwo {}
+
 
 #contOne {
     display: flex;
@@ -173,3 +173,10 @@ footer {
       align-items: center;
       justify-content: center;
   }
+  @media(min-width:300px) and (max-width:442px){
+    #main {
+    
+        padding-left: 0;
+        padding-right: 0;
+  }
+}
