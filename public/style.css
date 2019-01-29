@@ -5,15 +5,15 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
-    
-   
-    
+
+
+
     /* padding: 20px; */
     /* background-image: url(./images/Calibr-01.png); */
 }
 
 #main {
-    
+
     padding-left: 3rem;
     padding-right: 3rem;
 
@@ -28,7 +28,7 @@ body {
     padding: 20px;
     justify-content: center;
     border-bottom: 2px solid white;
-    
+
 
 }
 
@@ -38,9 +38,7 @@ body {
     opacity: .9;
 
 }
-#carousel{
-    opacity: .9;
-}
+
 .headerimage {
     /* background: #000; */
     position: relative;
@@ -104,7 +102,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    
+
 }
 
 .btn {
@@ -128,25 +126,29 @@ body {
     opacity: .7;
 
 }
+
 .col-container {
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
+    display: table;
+    /* Make the container element behave like a table */
+    width: 100%;
+    /* Set full-width to expand the whole page */
 }
 
-.col {
-    display: table-cell; /* Make elements inside the container behave like table cells */
+
+#carouselCol {
+    height: 600px;
+    padding: 20px;
 }
-#carouselCol{
-    height: 700px;
-    padding-top: 20px;
-}
+
 #carousel {
     padding: 20px;
+    opacity: .9;
+    border: 2px solid white;
 }
 
 #eventInfo {
     text-align: center;
-    opacity: .3;
+    
 }
 
 footer {
@@ -163,68 +165,109 @@ footer {
     padding: 20px;
     opacity: .9;
 }
-#eventInfo2{
+.container-fluid iframe{
+    margin: auto;
+    
+}
+#eventInfo2 {
     padding: 20px;
 }
+
 .carousel-inner img {
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .card #cardCarousel{
-      width: 60%;
-  }
-  #container3{
-      padding: 30px;
-  }
 
-  #iframeContainer{
-      display: block;
-      align-items: center;
-      justify-content: center;
-  }
-  @media(min-width:300px) and (max-width:442px){
+
+
+}
+
+.card #cardCarousel {
+    width: 60%;
+}
+
+#container3 {
+    padding: 30px;
+}
+
+#iframeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width:300px) and (max-width:442px) {
     #main {
-    
+
         padding-left: 0px;
         padding-right: 0px
-}
-.container-fluid {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}
-#iframe{
-    margin: auto;
+    }
+
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #iframe {
+        
+        float: none;
+        margin: 0 auto;
+
+    }
+
+    #ticketCard {
+
+        background-color: lightcoral;
+    }
 }
 
-#ticketCard{
-
-    background-color: lightcoral;
-}
-  }
-  .connect-photo1 {
+.connect-photo1 {
     /* Box-model */
-    width: 30vw;
-    height: 25vh;
+    width: 25vw;
+    height: 20vh;
     /* border-radius: 18px; */
-    filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.26));
-   
-  }
-  .connect-photo2 {
+    filter: drop-shadow(0px 0px 5px rgba(231, 231, 231, 0.66));
+
+}
+
+.connect-photo2 {
     /* Box-model */
     width: 25vw;
     height: 30vh;
     /* border-radius: 18px; */
     filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.26));
-  }
-  .connect-photo3 {
+}
+
+.connect-photo3 {
     /* Box-model */
-    width: 30vw;
-    height: 25vh;
+    width: 25vw;
+    height: 20vh;
     /* border-radius: 0px */
-    filter: drop-shadow(3px 7px 6px rgba(0, 0, 0, 0.26));
-  }
+    filter: drop-shadow(3px 7px 6px rgba(168, 166, 166, 0.26));
+}
+
+#containerConnect {
+    padding: 10px;
+}
+
+#connect-images {
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 4px;
+    
+}
+
+.carouselSlide {
+    border: 2px solid white;
+}
+#holders{
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+input{
+    width: 300px;
+    height: 175px;
+}
