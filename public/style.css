@@ -271,11 +271,12 @@ footer {
     align-items: center;
     vertical-align: center;
 }
-input img{
-    width: 100%;
-    height: auto;
-    box-shadow: 2px 2px 2px black;
-}
+ input #img-responsive {
+    width: 50%;
+  
+  
+} 
 h1, h4{
     font-weight: bold;
 }
+
