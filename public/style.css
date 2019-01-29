@@ -26,12 +26,12 @@ body {
 #contOne {
     display: flex;
     padding: 20px;
-    justify-content: center;
+    
     border-bottom: 2px solid white;
-
-
 }
-
+#contOne #ticketCol input{
+    justify-content: right;
+}
 #contTwo {
     margin-top: 20px;
     justify-content: right;
@@ -99,9 +99,10 @@ body {
 
 #ticketCol {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     margin: auto;
+    
 
 }
 
@@ -171,6 +172,7 @@ footer {
 }
 #eventInfo2 {
     padding: 20px;
+    border: 4px dashed black;
 }
 
 .carousel-inner img {
@@ -184,8 +186,9 @@ footer {
     width: 60%;
 }
 
-#container3 {
-    padding: 30px;
+.container-fluid #container3 {
+    padding: 20px;
+    margin-top: 30px;
 }
 
 #iframeContainer {
@@ -224,8 +227,8 @@ footer {
 
 .connect-photo1 {
     /* Box-model */
-    width: 25vw;
-    height: 20vh;
+    width: 100%;
+    height: auto;
     /* border-radius: 18px; */
     filter: drop-shadow(0px 0px 5px rgba(231, 231, 231, 0.66));
 
@@ -233,22 +236,23 @@ footer {
 
 .connect-photo2 {
     /* Box-model */
-    width: 25vw;
-    height: 30vh;
+    width: 100%;
+    height: auto;
     /* border-radius: 18px; */
     filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.26));
 }
 
 .connect-photo3 {
     /* Box-model */
-    width: 25vw;
-    height: 20vh;
+    width: 100%;
+    height: auto;
     /* border-radius: 0px */
     filter: drop-shadow(3px 7px 6px rgba(168, 166, 166, 0.26));
 }
 
 #containerConnect {
     padding: 10px;
+    justify-content: center;
 }
 
 #connect-images {
@@ -267,7 +271,11 @@ footer {
     align-items: center;
     vertical-align: center;
 }
-input{
-    width: 300px;
-    height: 175px;
+input img{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px black;
+}
+h1, h4{
+    font-weight: bold;
 }
