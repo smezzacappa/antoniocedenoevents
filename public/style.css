@@ -100,13 +100,11 @@ body {
 }
 
 #ticketCol {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin: 10px;
+    margin: auto;
+    
 }
 
 .btn {
@@ -130,7 +128,18 @@ body {
     opacity: .7;
 
 }
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
 
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+#carouselCol{
+    height: 700px;
+    padding-top: 20px;
+}
 #carousel {
     padding: 20px;
 }
@@ -159,6 +168,8 @@ footer {
 }
 .carousel-inner img {
     margin: auto;
+    justify-content: center;
+    align-items: center;
     
   }
   .card #cardCarousel{
@@ -194,4 +205,26 @@ footer {
 
     background-color: lightcoral;
 }
+  }
+  .connect-photo1 {
+    /* Box-model */
+    width: 30vw;
+    height: 25vh;
+    /* border-radius: 18px; */
+    filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.26));
+   
+  }
+  .connect-photo2 {
+    /* Box-model */
+    width: 25vw;
+    height: 30vh;
+    /* border-radius: 18px; */
+    filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.26));
+  }
+  .connect-photo3 {
+    /* Box-model */
+    width: 30vw;
+    height: 25vh;
+    /* border-radius: 0px */
+    filter: drop-shadow(3px 7px 6px rgba(0, 0, 0, 0.26));
   }

@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="./public/style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" href="./favicomatic/favicon-32x32.png" sizes="32x32" />
@@ -32,13 +32,13 @@
       <div class="container-fluid headerimage" id="contOne">
         <div class="row">
           <div class="col-md-9" id=partyName>
-            <img src="./public/images/Calibr-01.png" class="img-responsive" id="header">
+            <img src="./images/Calibr-01.png" class="img-responsive" id="header">
           </div>
-          <div class="col" id="ticketCol">
+          <div class="col-3" id="ticketCol">
             <a href="https://antonio-cedeno-events.ticketleap.com/" target="_blank">
-              <button class="btn">
-                <b>Tickets</b>
-              </button></a>
+              <input type="image" src="./images/flying-bullet.png" alt="Submit" width="200" height="175" value="Tickets">
+              </a>
+             
           </div>
           <!-- <div class="col" id="logoCol">
             <img src="./images/12346524_10208355534073840_4951443813666718763_n.jpeg" class="img-responsive" id="logo">
@@ -49,25 +49,25 @@
       <div class="container-fluid headerimage" id="contTwo">
         <div class="row">
           <div class="col-lg-8" id="dj">
-            <img src="./public/images/PauloFragosoEPK.pdf" id="djInfo" class="img-responsive">
+            <img src="./images/PauloFragosoEPK.pdf" id="djInfo" class="img-responsive">
           </div>
           <div class="col-lg-4" id="flyer">
-            <img src="./public/images/flyer1.jpg" class="img-responsive" id="flyerImg">
+            <img src="./images/flyer1.jpg" class="img-responsive" id="flyerImg">
           </div>
         </div>
       </div>
       <div class="container-fluid headerimage" id="carousel">
         <div class="row">
-          <div class="col">
+          <div class="col" id="carouselCol">
            
             <!-- <div class="card" id="cardCarousel"> -->
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" style="color:white;">
-                  <img class="d-block w-30" src="./public/images/DSC_7907.jpeg" alt="First slide">
+                  <img class="d-block w-30" src="./images/1548510285388.JPEG" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-50" src="./public/images/50301982_10155742054735124_5584471792866557952_n.jpeg" alt="Second slide">
+                  <img class="d-block w-50" src="./images/1548510409283.JPEG" alt="Second slide">
                 </div>
                 <!-- <div class="carousel-item">
                   <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
@@ -127,36 +127,23 @@
           <div class="container" id="iframe">
             <iframe src="https://madmimi.com/signups/a68a4fbf151b4b80bdd0d09cb0fb1f5c/iframe" scrolling="no"
               frameborder="0" height="506" style="max-width: 400px; width: 100%;"></iframe>
-            <!-- <form id="ema_signup_form" target="_blank" action="https://madmimi.com/signups/subscribe/a68a4fbf151b4b80bdd0d09cb0fb1f5c" accept-charset="UTF-8" method="post">
-              <input name="utf8" type="hidden" value="✓"/>
-              <div class="mimi_field required">
-                 <label for="signup_email">Email*</label>
-                 <br/>
-                 <input id="signup_email" name="signup[email]" type="text" data-required-field="This field is required" placeholder="you@example.com"/>
-              </div>
-              <div class="mimi_field required">
-                 <label for="signup_first_name">First Name*</label>
-                 <br/>
-                 <input id="signup_first_name" name="signup[first_name]" type="text" data-required-field="This field is required"/>
-              </div>
-              <div class="mimi_field required">
-                 <label for="signup_last_name">Last Name*</label>
-                 <br/>
-                 <input id="signup_last_name" name="signup[last_name]" type="text" data-required-field="This field is required"/>
-              </div>
-              <div style="background: white; font-size:1px; height: 0; overflow: hidden">
-                 <input type="text" name="e40cc37cdee966964d976d0f6a0bd329" style="font-size: 1px; width: 1px !important; height:1px !important; border:0 !important; line-height: 1px !important; padding: 0 0; min-height:1px !important;"/>
-                 <input class="checkbox" type="checkbox" name="beacon"/>
-              </div>
-              <div class="mimi_field">
-                 <input type="submit" class="submit" value="Subscribe" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending..." data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list" data-thanks="Thank you!"/>
-              </div>
-           </form> -->
           </div>
         </div>
         <div class="col-md-6" style="color:white;">
-          Produced By:
-          <img src="./public/images/12346524_10208355534073840_4951443813666718763_n.jpeg" style="width:100%;">
+            <div class="container">
+                <div id="connect-images">
+                    <a href="https://www.facebook.com/acedenoii">
+                        <img src="./images/12346524_10208355534073840_4951443813666718763_n.jpeg" alt="acevents" class="connect-photo1">
+                    </a>
+                    <a href="https://www.facebook.com/MaleRoomRebarChelsea/">
+                        <img src="./images/Male Room WHITE.png" alt="maleRoom" class="connect-photo2">
+                    </a>
+                    <a href=" https://www.facebook.com/SLAYDatREBAR/">
+                        <img src="./images/SLAYD.png" alt="slayD" class="connect-photo3">
+                    </a>
+                </div>
+            </div>
+        
         </div>
       </div>
     </div>
