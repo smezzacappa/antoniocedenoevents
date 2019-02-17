@@ -36,6 +36,9 @@ body {
     margin-top: 20px;
     justify-content: right;
     opacity: .9;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
 
 }
 
@@ -101,6 +104,7 @@ body {
 }
 #flyerTwo{
     flex-grow: .5;
+    
     
 }
 
@@ -198,9 +202,10 @@ footer {
     width: 60%;
 }
 
-.container-fluid #container3 {
+.container-fluid {
     padding: 20px;
     margin-top: 30px;
+  
 }
 
 #iframe {
