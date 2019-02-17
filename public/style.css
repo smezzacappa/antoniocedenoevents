@@ -70,8 +70,8 @@ body {
     width: 100% !important;
     border-radius: 0 0 5px 5px !important;
     margin: 0;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
+    /* border-left: 2px solid white;
+    border-bottom: 2px solid white; */
     padding: 10px;
 }
 
@@ -184,7 +184,7 @@ footer {
 }
 #eventInfo2 {
     padding: 20px;
-    border: 4px dashed black;
+    /* border: 4px dashed black; */
 }
 
 .carousel-inner img {
